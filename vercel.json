@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/((?!api/|index.html|favicon.ico|robots.txt).*)", "destination": "/api/protected" }
+  ]
+}
